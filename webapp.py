@@ -1,5 +1,5 @@
 from scraping import key_points
-from stock_data import get_data
+from plotly_chart import candlestick_maker
 import streamlit as st
 
 ticker = input("Enter the ticker: ")
