@@ -29,4 +29,4 @@ def candlestick_maker(ticker):
         )
     ])
     fig.update_layout(xaxis_rangeslider_visible=False)
-    fig.show()
+    return fig
